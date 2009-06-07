@@ -1,5 +1,7 @@
 Revision history for Perl module Handel
 
+    - Fix schema description to work with DBIC 0.081XX
+
 1.00011 Wed Aug 20 19:32:44 2008
     - Order->create($cart) uses storage->has_column instead of can
     - Removed Build.PL to make Module::Install happy
